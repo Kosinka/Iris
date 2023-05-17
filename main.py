@@ -3,5 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 dataset = pd.read_csv("iris.data")
-
-print(dataFrame)
+print(type(dataset))
+print(dataset.info())
+print(dataset.columns)
+print()
